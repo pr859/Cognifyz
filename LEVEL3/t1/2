@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .slideshow {
+            width: 100%;
+            max-width: 600px;
+            position: relative;
+            overflow: hidden;
+            margin: auto;
+        }
+        .slides {
+            display: flex;
+            width: 300%;
+            animation: slide 9s infinite;
+        }
+        .slides img {
+            width: 100%;
+        }
+        
+        @keyframes slide {
+            0% { transform: translateX(0%); }
+            33% { transform: translateX(-100%); }
+            66% { transform: translateX(-200%); }
+            100% { transform: translateX(0%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow">
+        <div class="slides">
+            <img src="https://wallpapercave.com/uwp/uwp4515905.png?text=Image+1" alt="Image 1">
+            <img src="https://wallpapercave.com/wp/wp9443984.png?text=Image+2" alt="Image 2">
+            <img src="https://wallpapercave.com/wp/wp5220447.jpg?text=Image+3" alt="Image 3">
+        </div>
+    </div>
+</body>
+</html>
