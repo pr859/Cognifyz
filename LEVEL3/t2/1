@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Internship - Cognifyz Technologies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #8e44ad, #c0392b);
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .highlights, .qualifications {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 80%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .highlights:hover, .qualifications:hover {
+            transform: scale(1.05);
+        }
+        .cta-btn {
+            display: inline-block;
+            background: #6c3483;
+            color: #fff;
+            padding: 15px 30px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .cta-btn:hover {
+            background: #4a235a;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Web Developer Internship Opportunities at Cognifyz Technologies</h1>
+        <p>Join our internship program and gain hands-on experience with real-world projects!</p>
+        <div class="highlights">
+            <h2>Why Join Us?</h2>
+            <p>âœ… Work on real-world projects</p>
+            <p>âœ… Receive mentorship from industry experts</p>
+            <p>âœ… Enhance your resume and portfolio</p>
+        </div>
+        <div class="qualifications">
+            <h2>Who Can Apply?</h2>
+            <p>ðŸ”¹ Basic knowledge of HTML, CSS, JavaScript</p>
+            <p>ðŸ”¹ Familiarity with React, Node.js, or Python (a plus)</p>
+            <p>ðŸ”¹ Strong problem-solving and analytical skills</p>
+        </div>
+        
+        <a href="#" class="cta-btn" style="background: #5dade2;">Learn More</a>
+    </div>
+    <footer>
+        <p>ðŸ“§ Email: info@cognifyz.com | ðŸŒ Website: www.cognifyz.com</p>
+        <p>ðŸ“ Address: [Company Address]</p>
+    </footer>
+</body>
+</html>
